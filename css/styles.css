@@ -1,0 +1,92 @@
+html, body {
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+  /* width: 100vh; */
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h2 {
+  margin: 0;
+  color: black;
+  font-weight: 900;
+}
+.main {
+  width: 30%;
+  min-width: 360px;
+  border: 1px solid black;
+  margin: 5% auto 0 auto;
+  text-align: center;
+  background-color: white;
+}
+
+.orderIllustration {
+  width: 100%;
+}
+.productDesc {
+  width: 60%;
+  margin: 0 auto;
+  line-height: 2;
+}
+.subscriptionCard {
+  width: 70%;
+  min-width: 280px;
+  position: relative;
+  margin: 30px auto 0;
+  text-align: left;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: hsl(225, 100%, 98%);
+}
+.subscriptionCard p {
+  line-height: 0;
+  color: gray;
+}
+.icon {
+  float: left;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.changeLink {
+  position: absolute;
+  right: 5%;
+  top: 28%;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+}
+.bottom {
+  margin-top: 40px;
+}
+.bottom a {
+  display: block;
+}
+
+.btn1 {
+  width: 60%;
+  margin: 0 auto;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 900;
+  border: 1px solid black;
+  text-decoration: none;
+  color: white;
+  background-color:  hsl(245, 75%, 52%);
+  border-radius: 10px;
+  box-shadow: 10px 8px 8px hsl(225, 100%, 94%);
+}
+
+.btn2 {
+  width: 50%;
+  margin: 10px auto 0;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+
+}
